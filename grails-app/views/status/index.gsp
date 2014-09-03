@@ -1,14 +1,14 @@
 <html>
 <head>
     <meta name="layout" content="main" />
-    <title>What Are You Doing?</title>
+    <title>Passatempo</title>
     <g:javascript library="jquery" plugin="jquery" />
 </head>   
-   <h1>What Are You Doing?</h1>
+   <h1>O que há de novo?</h1>
     <div class="updateStatusForm">
         <g:formRemote onSuccess="document.getElementById('messageArea').value='';" url="[action: 'updateStatus']" update="messageLists" name="updateStatusForm">
             <g:textArea name="message" value="" id="messageArea" /><br/>
-            <g:submitButton name="Update Status" />
+            <g:submitButton name="Atualizar" />
         </g:formRemote>
     </div>
 
