@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>Passatempo</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -103,11 +103,12 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<h1>Passatempo</h1>
+			<p>Bem-vindo a rede social para pessoas que gostam de filmes, séries e livros!<br>
+			Se você está procurando um local para conhecer pessoas que compartilham o amor
+			por essas obras assim como você, então está no lugar certo!<br>
+			Busque e marque os filmes, livros e séries que você mais gostou, adicione os que não
+			encontrou, recomende os seus favoritos e avise os outros sobre aquelas que você achou horrível!</p>
 
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
@@ -120,3 +121,4 @@
 		</div>
 	</body>
 </html>
+

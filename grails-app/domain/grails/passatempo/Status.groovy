@@ -7,5 +7,6 @@ class Status {
 	Date dateCreated
 
     static constraints = {
+    	message blank:false
     }
 }

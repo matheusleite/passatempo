@@ -12,6 +12,8 @@ class Person {
 	boolean accountLocked
 	boolean passwordExpired
 
+	static transients = ['springSecurityService']
+
 	static constraints = {
 		username blank: false, unique: true
 		password blank: false
