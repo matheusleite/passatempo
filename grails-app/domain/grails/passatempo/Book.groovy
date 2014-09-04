@@ -1,18 +1,17 @@
 package grails.passatempo
 
-class Movie {
-	String type = 'Movie'
-	String tittle 
+class Book {
+	String type = 'Book'
+	String tittle
 	String description
 	String modality
-	Integer yearCreated
-	Integer ageClassification
-	String mainActors
+	String author
+	String publisher
 
     static constraints = {
     	type blindable:true
     	tittle blank:false, unique:true
-    	ageClassification blank:false
+    	author blank:false
     	modality blank:false
     }
 }
