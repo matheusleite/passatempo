@@ -104,11 +104,11 @@
 		</div>
 		<div id="page-body" role="main">
 			<h1>Passatempo</h1>
-			<p>Bem-vindo a rede social para pessoas que gostam de filmes, séries e livros!
+			<p>Bem-vindo a rede social para pessoas que gostam de filmes, séries e livros!<br>
 			Se você está procurando um local para conhecer pessoas que compartilham o amor
-			por essas obras assim como você, então está no lugar certo!
+			por essas obras assim como você, então está no lugar certo!<br>
 			Busque e marque os filmes, livros e séries que você mais gostou, adicione os que não
-			encontrou, recomende os seus favoritos e avise os outros sobre aquelas que vpcê achou horrível!</p>
+			encontrou, recomende os seus favoritos e avise os outros sobre aquelas que você achou horrível!</p>
 
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
