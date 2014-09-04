@@ -5,6 +5,12 @@
 	<g:javascript library="jquery" plugin="jquery" />
 </head>
 <body>
+	<h1>Buscar: </h1>
+	<div class="searchForm">
+		<g:form controller="searchable">
+			<g:textField name="q" value=""/>
+		</g:form>
+	</div>
 	<h1>Novidades?</h1>
 	<div class="udpateStatusForm">
 		<g:formRemote onSuccess="document.getElementById('messageArea').value='';" url="[action: 'updateStatus']" update="messageLists" name="updateStatusForm">

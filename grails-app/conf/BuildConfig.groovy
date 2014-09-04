@@ -37,6 +37,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
         mavenRepo "http://repo.spring.io/milestone"
+        mavenRepo "http://repo.grails.org/grails/core"
     }
 
     dependencies {
@@ -61,5 +62,6 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.1'
         compile ":spring-security-core:1.2.7.2"
+        compile ":searchable:0.6.6"
     }
 }
