@@ -2,6 +2,8 @@ package grails.passatempo
 
 import grails.plugins.springsecurity.Secured
 import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils.*
+import org.springframework.dao.DataIntegrityViolationException
+
 
 @Secured(['IS_AUTHENTICATED_FULLY'])
 

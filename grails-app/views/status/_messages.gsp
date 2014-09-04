@@ -1,5 +1,6 @@
 <div class="message">
-	<strong>${message.author.realName}:</strong>
-	${message.message}<br/>
-	<div class="messageTime">at <g:formatDate date="${message.dateCreated}"/></div>
+    <strong>${message.author.realName}:</strong>
+    ${message.message}<br/>
+    <div class="messageTime">at <g:formatDate date="${message.dateCreated}"/></div>
 </div>
+
