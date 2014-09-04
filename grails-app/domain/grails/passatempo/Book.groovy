@@ -9,9 +9,9 @@ class Book {
 	String publisher
 
     static constraints = {
-    	type blindable:true
-    	tittle blank:false, unique:true
-    	author blank:false
-    	modality blank:false
+    	type blindable: true
+    	tittle blank: false, unique: true
+    	author blank: false
+    	modality blank: false
     }
 }

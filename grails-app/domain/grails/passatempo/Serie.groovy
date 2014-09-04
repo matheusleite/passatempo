@@ -1,13 +1,14 @@
 package grails.passatempo
 
-class Movie {
-	String type = 'Movie'
+class Serie {
+
+    String type = 'Serie'
 	String tittle 
 	String description
 	String modality
 	Integer yearCreated
 	Integer ageClassification
-	String mainActors
+	Integer numberSeasons
 
     static constraints = {
     	type blindable: true
