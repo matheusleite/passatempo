@@ -58,8 +58,13 @@
 		padding-left: 120px;
 	}
 
-	#login #submit {
+	#login #submit label {
 		margin-left: 15px;
+	}
+
+	#login #create label {
+		margin-left: 15px;
+		color: #2e3741;
 	}
 
 	#login #remember_me_holder label {
@@ -109,10 +114,14 @@
 				<label for='remember_me'><g:message code="springSecurity.login.remember.me.label"/></label>
 			</p>
 
-			<p>
-				<input type='submit' id="submit" value='${message(code: "springSecurity.login.button")}'/>
+			<p id="submit">
+				<label for="submit"><g:message code="springSecurity.login.button"/></label></p>
+			<p id="create">
+				<g:link url="[action:'create',controller:'Person']"><label for="submit"><g:message code= "Create New"/></label>
+
+				</g:link>
 			</p>
-		</form>
+			</form>
 	</div>
 </div>
 <script type='text/javascript'>
