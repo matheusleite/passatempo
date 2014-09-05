@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="maintheme"/>
+		<meta name="layout" content="starttheme"/>
 		<title>Passatempo</title>
 		<style type="text/css" media="screen">
 			#status {
