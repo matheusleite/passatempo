@@ -20,7 +20,7 @@ class StatusController {
         def per = Person.get(params.id)
         if(per) {
             def currentUser = lookupPerson()
-            currentUser.addToFollower(per)
+            currentUser.addToFollowed(per)
             currentUser.save()
         }
 

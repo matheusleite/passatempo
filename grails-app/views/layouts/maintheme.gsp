@@ -35,18 +35,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${request.contextPath}/maintheme/index.html">Passatempo</a>
+                <a class="navbar-brand" href="${request.contextPath}#">Passatempo</a>
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="${request.contextPath}/maintheme/#">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="${request.contextPath}#">
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <strong>John Smith</strong>
                                     <span class="pull-right text-muted">
@@ -58,7 +58,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <strong>John Smith</strong>
                                     <span class="pull-right text-muted">
@@ -70,7 +70,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <strong>John Smith</strong>
                                     <span class="pull-right text-muted">
@@ -82,7 +82,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a class="text-center" href="${request.contextPath}/maintheme/#">
+                            <a class="text-center" href="${request.contextPath}#">
                                 <strong>Read All Messages</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -92,12 +92,12 @@
                 </li>
                 <!-- /.dropdown -->
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="${request.contextPath}/maintheme/#">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="${request.contextPath}#">
                         <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-tasks">
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <p>
                                         <strong>Task 1</strong>
@@ -113,7 +113,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <p>
                                         <strong>Task 2</strong>
@@ -129,7 +129,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <p>
                                         <strong>Task 3</strong>
@@ -145,7 +145,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <p>
                                         <strong>Task 4</strong>
@@ -161,7 +161,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a class="text-center" href="${request.contextPath}/maintheme/#">
+                            <a class="text-center" href="${request.contextPath}#">
                                 <strong>See All Tasks</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -176,7 +176,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <i class="fa fa-comment fa-fw"></i> New Comment
                                     <span class="pull-right text-muted small">4 minutes ago</span>
@@ -185,7 +185,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <i class="fa fa-twitter fa-fw"></i> 3 New Followers
                                     <span class="pull-right text-muted small">12 minutes ago</span>
@@ -194,7 +194,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <i class="fa fa-envelope fa-fw"></i> Message Sent
                                     <span class="pull-right text-muted small">4 minutes ago</span>
@@ -203,7 +203,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <i class="fa fa-tasks fa-fw"></i> New Task
                                     <span class="pull-right text-muted small">4 minutes ago</span>
@@ -212,7 +212,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#">
+                            <a href="${request.contextPath}#">
                                 <div>
                                     <i class="fa fa-upload fa-fw"></i> Server Rebooted
                                     <span class="pull-right text-muted small">4 minutes ago</span>
@@ -221,7 +221,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a class="text-center" href="${request.contextPath}/maintheme/#">
+                            <a class="text-center" href="${request.contextPath}#">
                                 <strong>See All Alerts</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -235,9 +235,9 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="${request.contextPath}/maintheme/#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="${request.contextPath}#"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
-                        <li><a href="${request.contextPath}/maintheme/#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="${request.contextPath}#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="${request.contextPath}/maintheme/login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -264,89 +264,27 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="${request.contextPath}/maintheme/index.html"><i class="fa fa-dashboard fa-fw"></i> Linha do Tempo</a>
                         </li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <a href="${request.contextPath}/maintheme/#"><i class="fa fa-bar-chart-o fa-fw"></i> Reserva<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="${request.contextPath}/maintheme/flot.html">Flot Charts</a>
+                                    <a href="${createLink(controller:'Book', action:'show')}">Livros</a>
                                 </li>
                                 <li>
-                                    <a href="${request.contextPath}/maintheme/morris.html">Morris.js Charts</a>
+                                    <a href="${createLink(controller:'Movie', action:'show')}">Filmes</a>
+                                </li>
+                                <li>
+                                    <a href="${createLink(controller:'Serie', action:'show')}">Seriados</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="${request.contextPath}/maintheme/tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            <a href="${request.contextPath}/maintheme/tables.html"><i class="fa fa-table fa-fw"></i> Amigos</a>
                         </li>
-                        <li>
-                            <a href="${request.contextPath}/maintheme/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="${request.contextPath}/maintheme/#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/panels-wells.html">Panels and Wells</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/buttons.html">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/notifications.html">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/typography.html">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/grid.html">Grid</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="${request.contextPath}/maintheme/#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/#">Third Level <span class="fa arrow"></span></a>
-                                    <ul class="nav nav-third-level">
-                                        <li>
-                                            <a href="${request.contextPath}/maintheme/#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="${request.contextPath}/maintheme/#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="${request.contextPath}/maintheme/#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="${request.contextPath}/maintheme/#">Third Level Item</a>
-                                        </li>
-                                    </ul>
-                                    <!-- /.nav-third-level -->
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li class="active">
-                            <a href="${request.contextPath}/maintheme/#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a class="active" href="${request.contextPath}/maintheme/blank.html">Blank Page</a>
-                                </li>
-                                <li>
-                                    <a href="${request.contextPath}/maintheme/login.html">Login Page</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
+            
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

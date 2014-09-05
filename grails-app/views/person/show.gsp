@@ -3,11 +3,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-<<<<<<< HEAD
-		<meta name="layout" content="main">
-=======
 		<meta name="layout" content="maintheme">
->>>>>>> 25f25cacdec8a0fc223ca30b0da7c4d175093aaa
+
 		<g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
 	</head>

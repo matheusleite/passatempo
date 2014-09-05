@@ -1,4 +1,3 @@
-package grails.passatempo
 import org.compass.core.engine.SearchEngineQueryParseException
 import grails.plugins.springsecurity.Secured
 

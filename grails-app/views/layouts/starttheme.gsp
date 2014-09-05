@@ -70,7 +70,12 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="${request.controllerClass}Status" class="btn btn-default btn-lg"><span class="network-name">Login</span></a>
+                                <a href="${createLink(controller:'Status')}" class="btn btn-default btn-lg"><span class="network-name">Login</span></a>
+
+                            </li>
+                             <li>
+                                <a href="${createLink(controller:'Person', action:'create')}" class="btn btn-default btn-lg"><span class="network-name">Cadastre-se</span></a>
+                                
                             </li>
                         </ul>
                     </div>
