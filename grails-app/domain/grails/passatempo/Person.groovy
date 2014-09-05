@@ -12,6 +12,11 @@ class Person {
 	boolean accountLocked
 	boolean passwordExpired
 
+	static hasMany = [followed: Person, status: Status]
+	static searchable = [only: 'realName']
+
+	static transients = ['springSecurityService']
+
 	static constraints = {
 		username blank: false, unique: true
 		password blank: false

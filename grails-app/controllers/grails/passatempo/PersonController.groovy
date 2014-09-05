@@ -1,5 +1,6 @@
 package grails.passatempo
 
+<<<<<<< HEAD
 import org.springframework.dao.DataIntegrityViolationException
 
 class PersonController {
@@ -99,4 +100,9 @@ class PersonController {
             redirect(action: "show", id: id)
         }
     }
+=======
+class PersonController {
+
+    def scaffold = Person
+>>>>>>> 25f25cacdec8a0fc223ca30b0da7c4d175093aaa
 }
