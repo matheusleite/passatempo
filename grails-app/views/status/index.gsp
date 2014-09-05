@@ -1,6 +1,6 @@
 <html>
 <head>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="maintheme"/>
 	<title>Passatempo</title>
 	<g:javascript library="jquery" plugin="jquery" />
 </head>

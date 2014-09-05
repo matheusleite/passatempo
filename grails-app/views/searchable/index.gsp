@@ -1,6 +1,6 @@
 <html>
 <head>
-	<meta name="layout" content="main" />
+	<meta name="layout" content="maintheme" />
 </head>
 <body>
 	<g:each var="person" in="${searchResult?.results}">
